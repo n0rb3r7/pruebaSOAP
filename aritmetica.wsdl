@@ -1,0 +1,5 @@
+  <service name="AritmeticaServicio">
+    <port name="AritmeticaPort" binding="tns:AritmeticaBinding">
+      <soap:address location="http://localhost/pruebadelonline/aritmetica_server.php" />
+    </port>
+  </service>
